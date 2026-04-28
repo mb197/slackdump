@@ -117,6 +117,9 @@ func runResume(ctx context.Context, cmd *base.Command, args []string) error {
 		return fmt.Errorf("source type %q does not support resume, use 'slackdump convert -f database' to convert it", src.Type())
 	}
 
+	if resumeFlags.IncludeThreads && resumeFlags.SkipCompleteThreads {
+		slog.WarnContext(ctx, "threads whose parent message is older than the lookback window will not be checked for new replies")
+	}
 	latest, err := latest(ctx, src, resumeFlags.IncludeThreads, resumeFlags.SkipCompleteThreads, time.Duration((*duration.Duration)(resumeFlags.Lookback).ToTimeDuration()), list)
 	if err != nil {
 		base.SetExitStatus(base.SApplicationError)
@@ -208,8 +211,6 @@ func latest(ctx context.Context, src source.Resumer, includeThreads bool, skipCo
 
 	ei := make([]structures.EntityItem, 0, len(latest))
 	for sl, ts := range latest {
-		// When -threads + -skip-complete-threads, skip thread items from DB
-		// and let them be discovered via channel scanning with skip logic
 		if sl.IsThread() && (!includeThreads || skipCompleteThreads) {
 			continue
 		}
