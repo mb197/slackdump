@@ -438,6 +438,25 @@ func Test_latest(t *testing.T) {
 			wantErr: false,
 		},
 		{
+			name: "returns latest status with thread, includeThreads false and skipCompleteThreads true",
+			args: args{
+				ctx:                 t.Context(),
+				includeThreads:      false,
+				skipCompleteThreads: true,
+				lookBack:            0,
+			},
+			expectFn: func(mr *mock_source.MockResumer) {
+				mr.EXPECT().Latest(gomock.Any()).Return(map[structures.SlackLink]time.Time{
+					{Channel: "C123"}:                      time.Date(2021, 1, 1, 0, 0, 0, 0, time.UTC),
+					{Channel: "C456", ThreadTS: "123.456"}: time.Date(2021, 1, 2, 0, 0, 0, 0, time.UTC),
+				}, nil)
+			},
+			want: structures.NewEntityListFromItems(
+				structures.EntityItem{Id: "C123", Oldest: time.Date(2021, 1, 1, 0, 0, 0, 0, time.UTC), Latest: time.Time(cfg.Latest), Include: true},
+			),
+			wantErr: false,
+		},
+		{
 			name: "returns latest status with thread and skipCompleteThreads true",
 			args: args{
 				ctx:                  t.Context(),
