@@ -1,0 +1,52 @@
+username,email,status,billing-active,has-2fa,has-sso,userid,fullname,displayname,expiration-timestamp
+rayschwartz,rayschwartz@vassar.edu,Deactivated,0,0,0,U02503GT3,"Ray Schwartz",rayschwartz,
+macalusosj,samacaluso@vassar.edu,Owner,1,0,0,U02509QQS,"Samuel Jeffrey Macaluso",Jeff,
+csilverman,chsilverman@vassar.edu,Admin,1,1,0,U0250AM9N,csilverman,Chris,
+meggbrown,mebrown@vassar.edu,Owner,1,1,0,U0250CTC8,"Megg Brown",meggbrown,
+michael-cato,michael.cato@vassar.edu,Deactivated,0,0,0,U0254PYMK,michael-cato,,
+mogange,mogange@vassar.edu,Admin,1,0,0,U02956GRZ,mogange,,
+jabailey,jabailey@vassar.edu,Admin,1,0,0,U02E4SMFB,"Jason Bailey",jabailey,
+carolyn,caguyer@vassar.edu,Deactivated,0,0,0,U02F38JA3,carolyn,,
+rohartman,rohartman@vassar.edu,Deactivated,0,0,0,U03J4415A,"Rose Hartman",rohartman,
+mark.romanovsky,romanovsky@vassar.edu,Deactivated,0,0,0,U0BK0TTSA,"Mark Romanovsky",mark.romanovsky,0
+dasusman,dasusman@vassar.edu,Deactivated,0,0,0,U0BNU40TX,dasusman,,
+vandevelder,vandevelder@vassar.edu,Deactivated,0,0,0,U0D7718GZ,"Julia Vandervelder",vandevelder,0
+drobbins,drobbins@vassar.edu,"Primary Owner",1,0,0,U0L6MTNH0,"Daria Robbins",daria,
+tathibodeau,tathibodeau@vassar.edu,Member,1,0,0,U19K103NE,"Tamar Thibodeau","Tamar Thibodeau",
+gadellaccio,gadellaccio@vassar.edu,Deactivated,0,0,0,U4771MNRW,"Gabe Dell’ Accio",gadellaccio,0
+johnsonlin,jlin@poughkeepsieday.org,Deactivated,0,0,0,U5C97EHPV,"Johnson Lin",johnsonlin,0
+googledrive,botuser-T02503GT1-BA5M32ZFC@slack-bots.com,Bot,0,0,0,UA5J3RQNP,"Google Drive",,
+brflanagan,brflanagan@vassar.edu,Deactivated,0,0,0,UALFF6QGZ,"Brendan Flanagan",,0
+subrkich,subrkich@vassar.edu,Member,1,0,0,UD5T2RH8D,"Susan Brkich","Susan B.",
+dosburn,dosburn@vassar.edu,Deactivated,0,0,0,UDWKZ0WM7,"Dave Osburn",,0
+maoneal,maoneal@vassar.edu,Deactivated,0,0,0,UKFAUTQE7,"Mark O'Neal","Mark O'Neal",0
+asana2,appuser-T02503GT1-AA16LBCH2@slack-bots.com,Deactivated,0,0,0,UKHSYD7BR,"Asana (legacy)",,
+robert.ristroph,robert.ristroph@acquia.com,Deactivated,0,0,0,UP86E6DC2,"Rob Ristroph","Rob Ristroph",0
+alex.diskin,alex.diskin@acquia.com,Deactivated,0,0,0,UQHCAAH9T,"Alex Diskin","Alex Diskin",0
+eprunier,eprunier@vassar.edu,Admin,1,1,0,UR0EF79HV,"Beth Prunier","Beth Prunier",
+cgarcia,cgarcia@vassar.edu,Deactivated,0,0,0,U023V3DHALE,cgarcia,,0
+mwolfe,mwolfe@vassar.edu,Deactivated,0,0,0,U023Z0MK6UV,"Meghan Wolfe","Meg Wolfe",0
+dablahut,dablahut@vassar.edu,Deactivated,0,0,0,U0241S8J7S6,"David Blahut","David Blahut",0
+jocollier,jocollier@vassar.edu,Deactivated,0,0,0,U0241S8PF6E,jocollier,,0
+namyers,namyers@vassar.edu,Deactivated,0,0,0,U0241S8S9RQ,"Nancy Myers","Nancy Myers",0
+gamanning,gamanning@vassar.edu,Deactivated,0,0,0,U0242369L11,"Gary Manning","Gary Manning",0
+wb_bot_a02g9u2fkjq,botuser-T02503GT1-B02GLBZP2U9@slack-bots.com,Deactivated,0,0,0,U02G4NNBTHB,"weekly COVID Dashboard update until Jan 16",,
+wb_bot_a02t1qr4alc,botuser-T02503GT1-B02SZGWUVLK@slack-bots.com,Deactivated,0,0,0,U02TP876VC0,"COVID Dashboard update",,
+communications,communications@vassar.edu,Deactivated,0,0,0,U032C192RML,communications,,
+chuck,chuck@benaustin.com,Deactivated,0,0,0,U0360QS3LBS,"Chuck Yatsuk","Chuck Yatsuk",0
+jessie,jessie@benaustin.com,Deactivated,0,0,0,U0360QS7796,"Jesssie Glass","Jesssie Glass",0
+wb_bot_a03ckgl25mm,botuser-T02503GT1-B03CKGL4031@slack-bots.com,Deactivated,0,0,0,U03D04JGGBU,"Music Webcasts",,
+sapacheco,sapacheco@vassar.edu,Deactivated,0,0,0,U03Q74MTZ9S,sapacheco,,
+spacheco,spacheco@vassar.edu,Deactivated,0,0,0,U03QUNFPWEL,"Samantha Pacheco","Samantha Pacheco",
+wb_bot_a03skas9ps9,botuser-T02503GT1-B03SFLV03RC@slack-bots.com,Deactivated,0,0,0,U03SKAS9YSZ,1,,
+wb_bot_a03ss15q45u,botuser-T02503GT1-B03SJ272M3R@slack-bots.com,Deactivated,0,0,0,U03SYK8C50A,"What's the word",,
+wb_bot_a040pb73k08,botuser-T02503GT1-B03VDL7FS10@slack-bots.com,Deactivated,0,0,0,U03V72ALBC6,"Send Daria report",,
+deactivateduser424868,deactivateduser424868-vassar@slack-corp.com,Deactivated,0,0,0,U0409H7RYE9,"Deactivated User",deactivateduser,0
+wf_bot_a060kn2pd8u,botuser-T02503GT1-B060H5ZEKGT@slack-bots.com,Deactivated,0,0,0,U060AKCADAA,"Music Webcasts",,
+wf_bot_a0602nfks87,botuser-T02503GT1-B060H5X4AHH@slack-bots.com,Deactivated,0,0,0,U060VTHAG9X,"Send Daria report",,
+wf_bot_a060h5z9sp5,botuser-T02503GT1-B060H5ZKPKM@slack-bots.com,Bot,0,0,0,U06168NRBA4,"What's the word",,
+sdt,botuser-T02503GT1-B06TV6G1S8Z@slack-bots.com,Bot,0,0,0,U06TGCZD883,"Slack Developer Tools",,
+zapier,botuser-T02503GT1-B06TGETA2V9@slack-bots.com,Bot,0,0,0,U06TV89UK7B,Zapier,,
+ksheehan,ksheehan@sheehancomms.com,Deactivated,0,0,0,U07H9SVEFFC,"Kristin Sheehan","Kristin Sheehan",0
+google_calendar,botuser-T02503GT1-B07JH1FC4JZ@slack-bots.com,Bot,0,0,0,U07JKTB2WMQ,"Google Calendar",,
+wf_bot_a09srfbtxbl,botuser-T02503GT1-B09SN3JQ7HB@slack-bots.com,Bot,0,0,0,U09TKRTV740,"Faculty Edits Review",,
